@@ -17,7 +17,7 @@ import sys
 try:
   word_list_file = sys.argv[1]
 except:
-  print('requires one command line argument - a path to a word list file)
+  print('requires one command line argument - a path to a word list file')
   exit(0)
 
 with open(word_list_file,'r') as fp:
