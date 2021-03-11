@@ -8,7 +8,7 @@ blog post -- coming soon!
 
 ```
 git@github.com:philshem/knuckle-tattoo.git
-cd knucle-tattoo/
+cd knuckle-tattoo/
 ```
 
 code requires python3 but otherwise no non-standard libraries
