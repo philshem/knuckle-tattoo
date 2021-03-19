@@ -2,7 +2,7 @@
 
 generating the perfect knuckle tattoo with code and open data.
 
-blog post -- coming soon!
+blog post: https://smalldata.dev/posts/knuckle-tattoo/
 
 ## get the code
 
