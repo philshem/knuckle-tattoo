@@ -61,7 +61,7 @@ if True:
 	#print('count big words from small words:', len(word_2xsmall)) # kind of obvious it's the same as above
 
 # print csv header
-print(DL.join(('left','right','together','type_of_word')))
+print(DL.join(('left','right','together','abc_sorted','type_of_word')))
         
 # search all word space
 for x in all_pairs_word_small:
@@ -80,8 +80,9 @@ for x in all_pairs_word_small:
 
 	# search full list of 8 and 2x4 letter words
 	if mix in word_big:
-		print(DL.join((x[0],x[1],mix,'1x big word')))
+		print(DL.join((x[0],x[1],mix,' '.join(sorted(mix)),'1x big word')))
 	elif mix in word_2xsmall:
-		print(DL.join((x[0],x[1],mix,'2x small words')))
+		print(DL.join((x[0],x[1],mix,' '.join(sorted(mix)),'2x small words')))
+
 
 	#break
